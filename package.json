@@ -1,0 +1,14 @@
+{
+  "name": "xslt3-import-bug-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transform": "xslt3 -s:./source.sch -xsl:transform.xsl -o:./output.xsl"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xslt3": "^2.2.0"
+  }
+}
